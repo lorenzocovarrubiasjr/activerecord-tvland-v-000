@@ -8,8 +8,6 @@ class Show < ActiveRecord::Base
       self.network_id = Network.find_or_create_by(network_name)
    end 
    
-   def network 
-     
-   end 
+  
   
 end
